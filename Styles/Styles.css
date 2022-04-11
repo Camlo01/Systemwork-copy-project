@@ -23,13 +23,12 @@ html {
 
 header {
   width: 100%;
-  flex: grid;
+  position: relative;
 }
 
 .header-nav {
-  display: inline;
+  display: inline-block;
   width: 100%;
-  padding: 0px 0px;
   justify-content: space-between;
   position: fixed;
   z-index: 1;
@@ -119,4 +118,6 @@ header {
 /* -----------------------------------------------------------------------
 ---------------------------- Main -------------------------------------
 ----------------------------------------------------------------------- */
-
+main {
+  color: black;
+}
