@@ -30,8 +30,7 @@ header {
   display: inline-block;
   width: 100%;
   justify-content: space-between;
-  position: fixed;
-  z-index: 1;
+  position: sticky;
   -webkit-box-shadow: 1px -7px 19px 9px rgba(0, 0, 0, 0.34);
   box-shadow: 1px -7px 19px 9px rgba(0, 0, 0, 0.34);
   background-color: var(--blue-color);
@@ -120,4 +119,10 @@ header {
 ----------------------------------------------------------------------- */
 main {
   color: black;
+  height: 60px;
+  width: 100%;
+}
+
+.main-section-services {
+  margin-top: 10px;
 }

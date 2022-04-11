@@ -1,11 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-style: normal;
+  height: 1500px;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --blue-color: #028fcc;
+  --extreme-blue-color: #0477a8;
+  --black-blue-color: #00557a;
+  --blue-hover: #0073a5;
+  --just-white: #fff;
+}
 /* ---------------------------------------------------------------
   ------------------------ HEADER -------------------------------
   --------------------------------------------------------------- */
 
-.header-nav .Systemwork-logo {
-  width: 140px;
-  height: 45px;
-}
 header {
   height: auto;
   font-family: "DM Sans", sans-serif;
@@ -13,10 +31,15 @@ header {
   font-family: "Oswald", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+
+.header-nav .Systemwork-logo {
+  width: 140px;
+  height: 45px;
+}
 .header-nav {
   display: inline-flex;
   padding: 0px 30px;
-  position: fixed;
+  position: sticky;
   background-color: var(--blue-color);
   align-items: center;
 }
@@ -59,3 +82,12 @@ header {
 /* --------------------------------------------------------------------
 ---------------------------- Main -------------------------------------
 ----------------------------------------------------------------------- */
+main {
+  color: black;
+  height: 60px;
+  width: 100%;
+}
+
+.main-section-services {
+  margin-top: 10px;
+}
