@@ -1,0 +1,61 @@
+/* ---------------------------------------------------------------
+  ------------------------ HEADER -------------------------------
+  --------------------------------------------------------------- */
+
+.header-nav .Systemwork-logo {
+  width: 140px;
+  height: 45px;
+}
+header {
+  height: auto;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.header-nav {
+  display: inline-flex;
+  padding: 0px 30px;
+  position: fixed;
+  background-color: var(--blue-color);
+  align-items: center;
+}
+.header-navbar {
+  display: contents;
+  position: relative;
+  justify-self: end;
+  display: contents;
+}
+.header-navbar ul {
+  margin-right: 18px;
+  list-style: none;
+  float: right;
+}
+
+.header-navbar li {
+  display: inline-flex;
+  background-color: var(--blue-king);
+  margin: 0 2px;
+}
+
+.header-navbar li a {
+  text-decoration: none;
+  padding: 30px 25px;
+  font-size: 1.8rem;
+  color: var(--just-white);
+}
+
+.header-navbar li a:hover {
+  background-color: var(--blue-hover);
+}
+
+#check-navbar {
+  display: none;
+}
+.button-responsive-menu {
+  display: none;
+}
+
+/* --------------------------------------------------------------------
+---------------------------- Main -------------------------------------
+----------------------------------------------------------------------- */
