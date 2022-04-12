@@ -8,10 +8,8 @@ html {
   font-size: 62.5%;
   font-style: normal;
   height: 1500px;
-  font-family: "DM Sans", sans-serif;
-  font-family: "Inter", sans-serif;
-  font-family: "Oswald", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 :root {
   --blue-color: #028fcc;
@@ -19,18 +17,14 @@ html {
   --black-blue-color: #00557a;
   --blue-hover: #0073a5;
   --just-white: #fff;
+
+  --letra-title: #333;
+  --letra-body: #666;
 }
+
 /* ---------------------------------------------------------------
   ------------------------ HEADER -------------------------------
   --------------------------------------------------------------- */
-
-header {
-  height: auto;
-  font-family: "DM Sans", sans-serif;
-  font-family: "Inter", sans-serif;
-  font-family: "Oswald", sans-serif;
-  font-family: "Roboto", sans-serif;
-}
 
 .header-nav .Systemwork-logo {
   width: 140px;
@@ -82,11 +76,6 @@ header {
 /* --------------------------------------------------------------------
 ---------------------------- Main -------------------------------------
 ----------------------------------------------------------------------- */
-main {
-  color: black;
-  height: 60px;
-  width: 100%;
-}
 
 .main-section-services {
   margin-top: 10px;
