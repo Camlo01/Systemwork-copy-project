@@ -8,8 +8,11 @@ html {
   font-size: 62.5%;
   font-style: normal;
   height: 1500px;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "DM Sans", sans-serif;
   font-family: "Inter", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif; */
+  font-family: "Open Sans", sans-serif;
 }
 :root {
   --blue-color: #028fcc;
@@ -149,6 +152,7 @@ header {
 }
 .section-servicios__title {
   font-size: 2.4rem;
+  font-weight: 500;
   color: var(--letra-title);
 }
 .section-servicios__body {
@@ -241,8 +245,8 @@ header {
 }
 
 .section-nosotros__title {
-  font-size: 3.4rem;
-  font-weight: 100;
+  font-size: 3rem;
+  font-weight: 500;
 }
 .section-nosotros__body {
   font-size: 1.4rem;
@@ -314,6 +318,7 @@ header {
 
 .section-aliados__title {
   font-size: 2.4rem;
+  font-weight: 500;
   color: var(--letra-title);
 }
 .section-aliados__body {
@@ -349,6 +354,7 @@ header {
 .section-aliados--card h3 {
   font-size: 1.8rem;
   line-height: 19.8px;
+  font-weight: 500;
   color: var(--letra-title);
   text-align: center;
 }
@@ -403,8 +409,8 @@ form input {
   font-size: 1.6rem;
   min-width: 300px;
   max-width: 430px;
-  padding-left: 10px;
   height: 50px;
+  padding-left: 10px;
   position: relative;
 
   background-color: rgb(0, 0, 0, 5%);
@@ -414,7 +420,19 @@ form input {
   border: 1px solid #888;
 }
 
+form button {
+  min-width: 300px;
+  max-width: 430px;
+  height: 50px;
+  background-color: var(--blue-color);
+  border: 1px solid var(--blue-color);
+  color: var(--just-white);
+  font-size: 1.8rem;
+}
+
 .container__info {
+  font-weight: 300;
+  line-height: 2.4rem;
   height: 100px;
   width: 320px;
   display: block;
