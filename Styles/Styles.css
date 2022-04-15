@@ -122,6 +122,31 @@ header {
 ---------------------------- Main ---------------------------------------
 ----------------------------------------------------------------------- */
 
+/* media query para darle espacios en pantallas muy pequeñas */
+
+@media (max-width: 500px) {
+  main .main-section-servicios{
+    padding: 0 18px;
+
+  }
+
+  main .main-section-nosotros{
+    padding: 0 30px;
+  }
+
+  main .section-portafolio--title{
+    padding: 0 20px;
+  }
+
+main .section-aliados--title{
+  padding: 0 20px;
+}
+
+
+
+  
+}
+
 .media-container {
   flex-wrap: wrap;
   display: flex;
@@ -226,7 +251,7 @@ header {
   background-size: cover;
   width: 100%;
   color: var(--just-white);
-  padding: 60px 5px;
+
   align-items: center;
 }
 .section-nosotros-container {
