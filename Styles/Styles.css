@@ -23,6 +23,8 @@ html {
 
   --letra-title: #333;
   --letra-body: #666;
+
+  --blue-letras: rgb(2, 143, 204);
 }
 
 header {
@@ -144,7 +146,7 @@ main .section-aliados--title{
 
 
 
-  
+
 }
 
 .media-container {
@@ -285,7 +287,7 @@ main .section-aliados--title{
 }
 
 /* -----------------------------------------------------------------------
----------------------------- Main ---------------------------------------
+---------------------------- PORTAFOLIO ----------------------------------
 ----------------------------------------------------------------------- */
 
 .main-section-portafolio {
@@ -489,7 +491,52 @@ form button {
 ----------------------------------------------------------------------- */
 
 footer {
-  height: 80px;
+  /* height: 1000px; */
   width: 100%;
   background-color: var(--blue-color);
+}
+
+footer .footer-redes--container{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; */
+  margin: 0 auto;
+  padding: 50px 8px;
+}
+
+.footer-redes--container .redes__logo{
+  display: block;
+  min-width: 400px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 7px;
+}
+
+.footer-redes--container .redes__redes{
+  display: block;
+  padding-top: 7px;
+  margin: 0 auto;
+}
+
+.footer-derechos--container{
+  width: 100%;
+  background-color: white;
+}
+
+.footer-derechos--container {
+  font-size: 1.4rem;
+  font-style: none;
+  color: var(--blue-letras);
+  padding: 15px;  
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.footer-derechos--container p {
+margin-left: 50px;
+}
+
+.footer-derechos--container a {
+margin-right: 50px;
+height: 20px;
 }
