@@ -36,7 +36,7 @@ header {
     position: relative;
 }
 
-.header-nav {
+.header--navegation__container {
     display: inline-block;
     width: 100%;
     justify-content: space-between;
@@ -62,13 +62,13 @@ header {
     display: none;
 }
 
-.header-nav .Systemwork-logo {
+.header--navegation__container .Systemwork-logo {
     width: 95px;
     height: 35px;
     margin: 15px;
 }
 
-.header-navbar {
+.navegation--container__navbar {
     display: none;
     position: fixed;
     background-color: var(--blue-color);
@@ -82,17 +82,17 @@ header {
     .button-responsive-menu :hover {
         background-color: #0073a5;
     }
-    .header-navbar ul {
+    .navegation--container__navbar ul {
         width: 100%;
     }
-    .header-navbar li {
+    .navegation--container__navbar li {
         text-align: center;
         list-style: none;
         border: 0.5px solid #0073a5;
         border-left: none;
         border-right: none;
     }
-    .header-navbar li a {
+    .navegation--container__navbar li a {
         color: var(--just-white);
         text-decoration: none;
         display: inline-block;
@@ -101,10 +101,10 @@ header {
         font-weight: 800;
         font-size: 1.8rem;
     }
-    .header-navbar li:hover {
+    .navegation--container__navbar li:hover {
         background-color: #0073a5;
     }
-    .header-navbar li a:hover {
+    .navegation--container__navbar li a:hover {
         color: #dfdfdf;
     }
 }
@@ -117,7 +117,7 @@ header {
 
 /* ACÁ IBA EL CODIGO DEL HEADER  */
 
-#check-navbar:checked~.header-navbar {
+#check-navbar:checked~.navegation--container__navbar {
     display: block;
     width: 100%;
 }
@@ -131,10 +131,10 @@ header {
 /* media query para darle espacios en pantallas muy pequeñas */
 
 @media (max-width: 500px) {
-    main .main-section-servicios {
+    main .main--section__services {
         padding: 0 18px;
     }
-    main .main-section-nosotros {
+    main .main--section__nosotros {
         padding: 0 30px;
     }
     main .section-portafolio--title {
@@ -145,28 +145,29 @@ header {
     }
 }
 
-.media-container {
+.media--container {
     flex-wrap: wrap;
     display: flex;
     padding: 30px 0 10px;
 }
 
-.media-container .youtube {
+.media--container .youtube {
     margin: 10px auto;
     padding-top: 30px;
     width: 741px;
     height: 417px;
 }
 
-.media-container .spotify {
+.media--container .spotify {
     margin: 48px auto 10px;
     width: 270px;
     height: 375px;
 }
 
-.section-servicios--title {
-    max-width: 470px;
-    margin: 30px auto;
+.main--section__services {
+    padding-top: 15px;
+    margin: 30px 0 60px;
+    align-items: center;
 }
 
 .section--title {
@@ -175,39 +176,22 @@ header {
     margin: 70px auto;
 }
 
-.section-servicios__title {
+.services--text__title {
     font-size: 2.4rem;
     font-weight: 500;
-    color: var(--letra-title);
+    max-width: 470px;
+    margin: 30px auto 15px;
 }
 
-.section-servicios__body {
+.services--text__body {
     font-size: 1.4rem;
     line-height: 2.4rem;
     max-width: 720px;
     color: var(--letra-body);
-}
-
-.main-section-servicios picture {
-    width: 100%;
-    display: inline-block;
-}
-
-.main-section-servicios picture video {
-    min-width: 310px;
-    max-width: 410px;
-    display: inline-block;
-    position: relative;
     margin: 0 auto;
 }
 
-.main-section-servicios {
-    padding-top: 15px;
-    margin: 30px 0 60px;
-    align-items: center;
-}
-
-.servicios--container__wrap {
+.services--container__wrap {
     flex-wrap: wrap;
     display: flex;
     max-width: 1160px;
@@ -215,20 +199,20 @@ header {
     line-height: 1.1;
 }
 
-.section-servicios--card {
+.services--container__card {
     width: 320px;
     display: block;
     margin: 0 auto;
 }
 
-.section-servicios--card img {
+.services--container__card img {
     width: 90px;
     height: 90px;
     margin: 10px auto;
     display: block;
 }
 
-.section-servicios--card h3 {
+.services--container__card h3 {
     font-size: 2rem;
     line-height: 2.2rem;
     font-weight: 500;
@@ -236,7 +220,7 @@ header {
     color: var(--letra-title);
 }
 
-.section-servicios--card p {
+.services--container__card p {
     text-align: center;
     font-size: 1.4rem;
     line-height: 2.4rem;
@@ -248,7 +232,7 @@ header {
 ---------------------------- Nosotros ------------------------------------
 ----------------------------------------------------------------------- */
 
-.main-section-nosotros {
+.main--section__nosotros {
     background-image: url(../Assets/Images/Nosotros/about-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -258,32 +242,32 @@ header {
     align-items: center;
 }
 
-.section-nosotros-container {
+.section--nosotros__container {
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     padding: 40px 0;
 }
 
-.section-nosotros-container img {
+.section--nosotros__container img {
     max-width: 450px;
 }
 
-.sectio-nosotros--text {
+.section--nosotros__text {
     max-width: 485px;
     margin: 0 auto;
 }
 
-.section-nosotros__title {
+.nosotros--text__title {
     font-size: 3rem;
     font-weight: 500;
 }
 
-.section-nosotros__body {
+.nosotros--text__body {
     font-size: 1.4rem;
 }
 
-.section-nosotros-container img {
+.section--nosotros__container img {
     display: block;
     margin: 30px auto;
     width: 100%;
@@ -295,11 +279,11 @@ header {
 ---------------------------- PORTAFOLIO ----------------------------------
 ----------------------------------------------------------------------- */
 
-.main-section-portafolio {
+.main--section__portafolio {
     padding-top: 13px;
 }
 
-.section-portafolio__title {
+.portafolio--text__title {
     font-size: 2.4rem;
     line-height: 3.3rem;
     margin: 0 auto;
@@ -308,7 +292,7 @@ header {
     color: var(--letra-title);
 }
 
-.section-portafolio__body {
+.portafolio--text__body {
     font-size: 1.4rem;
     line-height: 2.4rem;
     max-width: 420px;
@@ -317,7 +301,7 @@ header {
     margin: 0 auto;
 }
 
-.section-portafolio-photos {
+.section--portafolio__photos {
     display: flex;
     flex-wrap: wrap;
     max-width: 1400px;
@@ -326,18 +310,18 @@ header {
 }
 
 @media (min-width: 640px) {
-    .section-portafolio-photos {
+    .section--portafolio__photos {
         max-width: 640px;
     }
 }
 
 @media (min-width: 1279px) {
-    .section-portafolio-photos {
+    .section--portafolio__photos {
         max-width: 1280px;
     }
 }
 
-.section-portafolio-photos img {
+.section--portafolio__photos img {
     min-width: 300px;
     max-width: 320px;
 }
@@ -347,18 +331,19 @@ header {
 ---------------------------- Aliados -------------------------------------
 ----------------------------------------------------------------------- */
 
-.main-section-aliados {
+.main--section__aliados {
     padding: 8px auto;
     padding-bottom: 50px;
 }
 
-.section-aliados__title {
+.aliados--text__title {
     font-size: 2.4rem;
     font-weight: 500;
-    color: var(--letra-title);
+    max-width: 470px;
+    margin: 30px auto 15px;
 }
 
-.section-aliados__body {
+.aliados--text__body {
     font-size: 1.4rem;
     line-height: 2.4rem;
     margin: 0 auto;
@@ -408,7 +393,7 @@ header {
 ---------------------------- Contacto ------------------------------------
 ----------------------------------------------------------------------- */
 
-.main-section--contacto {
+.main--contacto__container {
     background-image: url(../Assets/Images/Contacto/contact-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -418,14 +403,14 @@ header {
     padding: 30px 0;
 }
 
-.section-contacto__title {
+.container--text__title {
     font-size: 2.6rem;
     font-weight: 500;
     margin-bottom: 26px;
     color: var(--just-white);
 }
 
-.section-contacto__body {
+.container--text__body {
     font-size: 1.6rem;
     line-height: 2.4rem;
     max-width: 470px;
@@ -434,7 +419,7 @@ header {
     color: var(--just-white);
 }
 
-.contacto-info--container {
+.contacto--form__container {
     flex-wrap: wrap;
     display: flex;
     width: 100%;
@@ -445,7 +430,7 @@ form {
     margin: 0 auto;
 }
 
-.contacto-info--container input {
+.contacto--form__container input {
     font-size: 1.6rem;
     min-width: 300px;
     max-width: 430px;
@@ -459,11 +444,11 @@ form {
     border: 1px solid #888;
 }
 
-.contacto-info--container .form-datos {
+.contacto--form__container .form__datos {
     height: 45px;
 }
 
-.contacto-info--container .form-mensaje {
+.contacto--form__container .form__mensaje {
     min-height: 180px;
     padding-bottom: 140px;
 }
@@ -478,7 +463,7 @@ form button {
     font-size: 1.8rem;
 }
 
-.container__info {
+.contacto--info__container {
     font-weight: 300;
     line-height: 2.4rem;
     height: 100px;
@@ -490,13 +475,13 @@ form button {
     font-size: 1.6rem;
 }
 
-.container__info p a {
+.contacto--info__container p a {
     color: var(--just-white);
     list-style: none;
     text-decoration: none;
 }
 
-.container__info p a:hover {
+.contacto--info__container p a:hover {
     color: var(--blue-color);
 }
 
@@ -510,12 +495,12 @@ footer {
     background-color: var(--blue-color);
 }
 
-footer .footer-redes--container {
+footer .footer--social__container {
     margin: 0 auto;
     padding: 30px 8px;
 }
 
-.footer-redes--container .redes__logo {
+.footer--social__container .social__logo {
     display: block;
     min-width: 400px;
     max-width: 600px;
@@ -523,31 +508,28 @@ footer .footer-redes--container {
     padding-bottom: 7px;
 }
 
-.footer-redes--container .redes__redes {
+.footer--social__container .social__redes {
     display: block;
     padding-top: 7px;
     margin: 0 auto;
 }
 
-.footer-derechos--container {
-    width: 100%;
-    background-color: white;
-}
-
-.footer-derechos--container {
+.footer--brand__container {
     font-size: 1.4rem;
     font-style: none;
-    color: var(--blue-letras);
     padding: 15px;
+    width: 100%;
+    color: var(--blue-letras);
+    background-color: white;
     display: inline-flex;
     justify-content: space-between;
 }
 
-.footer-derechos--container p {
+.footer--brand__container p {
     margin-left: 50px;
 }
 
-.footer-derechos--container a {
+.footer--brand__container a {
     margin-right: 50px;
     height: 20px;
 }

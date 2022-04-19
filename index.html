@@ -18,84 +18,68 @@
 </head>
 
 <body>
-
     <header>
-        <!-- header-container--navegation  -->
-        <div class="header-nav">
+        <div class="header--navegation__container">
             <img src="Assets/Icons/logo.png" alt="" class="Systemwork-logo">
             <input type="checkbox" id="check-navbar">
             <label for="check-navbar" class="button-responsive-menu"><img src="" alt="|||"></label>
-            <!-- container--navegation__navbar  -->
-            <nav class="header-navbar" id="menu">
+            <nav class="navegation--container__navbar" id="menu">
                 <ul>
-                    <li class="main-nav-item"> <a href="#inicio">Inicio</a></li>
-                    <li class="main-nav-item"> <a href="#servicios">Servicios</a></li>
-                    <li class="main-nav-item"> <a href="#nosotros">Nosotros</a></li>
-                    <li class="main-nav-item"> <a href="#portafolio">Portafolio</a></li>
-                    <li class="main-nav-item"> <a href="#aliados">Aliados</a></li>
-                    <li class="main-nav-item"> <a href="#contacto">Contactanos</a></li>
+                    <li class="selectores"> <a href="#inicio">Inicio</a></li>
+                    <li class="selectores"> <a href="#servicios">Servicios</a></li>
+                    <li class="selectores"> <a href="#nosotros">Nosotros</a></li>
+                    <li class="selectores"> <a href="#portafolio">Portafolio</a></li>
+                    <li class="selectores"> <a href="#aliados">Aliados</a></li>
+                    <li class="selectores"> <a href="#contacto">Contactanos</a></li>
                 </ul>
             </nav>
         </div>
-
     </header>
+
     <main id="inicio">
-        <!-- <section class="media-container">
-            <iframe class="youtube" src="https://www.youtube.com/embed/kI8-1ntkYZ0" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
+        <section class="media--container">
+            <iframe class="youtube" src="https://www.youtube.com/embed/kI8-1ntkYZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
-
-            <iframe style="border-radius:12px" class="spotify"
-                src="https://open.spotify.com/embed/album/4Q0YngGN8opxJ5LIuDaE7P?utm_source=generator" frameBorder="0"
-                allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/album/4Q0YngGN8opxJ5LIuDaE7P?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
             </iframe>
-        </section> -->
-        <!-- Section services -->
-
-        <!-- main-section--servicios -->
-        <section class="main-section-servicios" id="servicios">
-            <!-- section--services__title section--title  -->
-            <div class="section-servicios--title section--title">
-                <!-- services__title -->
-                <h2 class="section-servicios__title">Nuestros Servicios</h2>
-                <!-- services__body -->
-                <p class="section-servicios__body">Somos su aliado para el crecimiento de su empresa, implementando tecnología de punta para la efectividad de sus servicios</p>
+        </section>
+        <!-- Section SERVICES-->
+        <section class="main--section__services" id="servicios">
+            <div class="section--services__text section--title">
+                <h2 class="services--text__title">Nuestros Servicios</h2>
+                <p class="services--text__body">Somos su aliado para el crecimiento de su empresa, implementando tecnología de punta para la efectividad de sus servicios</p>
             </div>
-
-            <div class="servicios--container__wrap">
+            <div class="services--container__wrap">
                 <!-- 3 primeros servicios  -->
-                <!-- container--services__card -->
-                <article class="section-servicios--card">
+                <article class="services--container__card">
                     <img src="Assets/Icons/icons/icon-herramienta.png" alt="imagen de servicio">
                     <h3>Soporte técnico informático</h3>
                     <p>Solucionamos sus problemas informáticos en software y hardware.</p>
                 </article>
-                <article class="section-servicios--card">
+                <article class="services--container__card">
                     <img src="Assets/Icons/icons/icon-add.png" alt="imagen de servicio">
                     <h3>Asesorías</h3>
                     <p>Lo asesoramos para solucionar sus necesidades tecnológicas teniendo en cuenta su economía.</p>
                 </article>
-                <article class="section-servicios--card">
+                <article class="services--container__card">
                     <img src="Assets/Icons/icons/icon-cloud.png" alt="imagen de servicio">
                     <h3>Backup en la Nube</h3>
                     <p>Realiamos respaldo de su información diariamente manteniéndola segura y confidencial.</p>
                 </article>
                 <!-- Segunda linea de servicios  -->
-                <article class="section-servicios--card">
+                <article class="services--container__card">
                     <img src="Assets/Icons/icons/icon-users.png" alt="imagen de servicio">
                     <h3>Outsourcing informático</h3>
                     <p>Nosotros nos encargamos de la tecnología mientras usted desarrolla su actividad economónica principal.
                     </p>
                 </article>
-                <article class="section-servicios--card">
+                <article class="services--container__card">
                     <img src="Assets/Icons/icons/icon-clock.png" alt="imagen de servicio">
                     <h3>Atención 24H 365 Dias</h3>
                     <p>Obtenga atención las 24 horas los 365 días del año mediante control remoto, telefónico y presencial.
                     </p>
                 </article>
-                <article class="section-servicios--card">
+                <article class="services--container__card">
                     <img src="Assets/Icons/icons/icon-computer.png" alt="imagen de servicio">
                     <h3>Suministros</h3>
                     <p>Venta de equipos tecnológicos nuevos y remanufacturados como computadores, impresonras, cámras, repuestos, etc.</p>
@@ -103,11 +87,11 @@
             </div>
         </section>
         <!-- seccion de NOSOTROS  -->
-        <section class="main-section-nosotros" id="nosotros">
-            <article class="section-nosotros-container">
-                <div class="sectio-nosotros--text">
-                    <h2 class="section-nosotros__title">Nosotros </h2>
-                    <p class="section-nosotros__body">Con mas de 20 años de experiencia en el campo de la tecnología brindamos todo tipo de soluciones a las necesidades tecnológicas de empresas, como de hogares en Colombia y fuera de Colombia para el desarrollo de sus actividades; siempre
+        <section class="main--section__nosotros" id="nosotros">
+            <article class="section--nosotros__container">
+                <div class="section--nosotros__text">
+                    <h2 class="nosotros--text__title">Nosotros </h2>
+                    <p class="nosotros--text__body">Con mas de 20 años de experiencia en el campo de la tecnología brindamos todo tipo de soluciones a las necesidades tecnológicas de empresas, como de hogares en Colombia y fuera de Colombia para el desarrollo de sus actividades; siempre
                         brindado un servicio con sentido humano siendo un aliado para el desarrollo y crecimiento de su negocio. <br><br> Nuestra misión es brindarle soluciones en el área tecnológica a tiempo de manera efectiva y segura con tecnología
                         de punta siguiendo el desarrollo de nuevas tecnologías.</p>
                 </div>
@@ -115,12 +99,13 @@
             </article>
         </section>
         <!-- seccion de PORTAFOLIO -->
-        <section class="main-section-portafolio" id="portafolio">
-            <div class="section-portafolio--title section--title">
-                <h2 class="section-portafolio__title">Nuestro Portafolio</h2>
-                <p class="section-portafolio__body">Todo lo relacionado con tecnologia para su empresa u hogar al manejar costo y calidad</p>
+        <section class="main--section__portafolio" id="portafolio">
+
+            <div class="section--portafolio__text section--title">
+                <h2 class="portafolio--text__title">Nuestro Portafolio</h2>
+                <p class="portafolio--text__body">Todo lo relacionado con tecnologia para su empresa u hogar al manejar costo y calidad</p>
             </div>
-            <div class="section-portafolio-photos">
+            <div class="section--portafolio__photos">
                 <img src="Assets/Images/Portafolio/1.bmp" alt="">
                 <img src="Assets/Images/Portafolio/2.bmp" alt="">
                 <img src="Assets/Images/Portafolio/3.bmp" alt="">
@@ -132,10 +117,10 @@
             </div>
         </section>
         <!-- seccion de ALIADOS -->
-        <section class="main-section-aliados" id="aliados">
-            <div class="section-aliados--title section--title">
-                <h2 class="section-aliados__title">Nuestros Aliados</h2>
-                <p class="section-aliados__body">Afrontar desafios requiere no solo promover la generacion de conocimiento sino la construccion de una sólida red de aliados</p>
+        <section class="main--section__aliados" id="aliados">
+            <div class="section--aliados__text section--title">
+                <h2 class="aliados--text__title">Nuestros Aliados</h2>
+                <p class="aliados--text__body">Afrontar desafios requiere no solo promover la generacion de conocimiento sino la construccion de una sólida red de aliados</p>
             </div>
             <div class="aliados-container-wrap">
                 <article class="section-aliados--card">
@@ -200,28 +185,20 @@
                 </article>
         </section>
         <!-- seccion de CONTACTO -->
-        <section class="main-section--contacto" id="contacto">
-            <!-- section__title -->
-            <div class="section--title">
-                <!-- section--contacto__title -->
-                <h2 class="section-contacto__title">Contactanos</h2>
-                <!-- section--contacto__body -->
-                <p class="section-contacto__body">Solicita tu diagnotico sin costo, puedes llamarnos o escribirnos al correo de contacto</p>
+        <section class="main--contacto__container" id="contacto">
+            <div class="contacto--container__text section--title">
+                <h2 class="container--text__title">Contactanos</h2>
+                <p class="container--text__body">Solicita tu diagnotico sin costo, puedes llamarnos o escribirnos al correo de contacto</p>
             </div>
-
-            seccion de FORMULARIO
-            <!-- contacto--form__container -->
-            <div class="contacto-info--container">
+            <div class="contacto--form__container">
                 <form action="">
-                    <!-- form__datos -->
-                    <input class="form-datos" type="text" placeholder="Nombre">
-                    <input class="form-datos" type="text" placeholder="Número tel.">
-                    <input class="form-datos" type="text" placeholder="Asunto">
-                    <input class="form-mensaje" type="text" placeholder="Escribe tu consulta">
+                    <input class="form__datos" type="text" placeholder="Nombre">
+                    <input class="form__datos" type="text" placeholder="Número tel.">
+                    <input class="form__datos" type="text" placeholder="Asunto">
+                    <input class="form__mensaje" type="text" placeholder="Escribe tu consulta">
                     <button>Enviar ahora</button>
                 </form>
-                <!-- contacto--info__container -->
-                <article class="container__info">
+                <article class="contacto--info__container">
                     <p>Direccion: Villavicencio - Meta</p>
                     <p>Teléfono: 3132318772 </p>
                     <p>Email: <a href="mailto:mailto:someone@yoursite.com">soporte@systemwork.com.co</a></p>
@@ -231,14 +208,13 @@
         </section>
         </div>
     </main>
+
     <footer>
-        <!-- footer--social__container -->
-        <section class="footer-redes--container">
-            <img class="redes__logo" src="Assets/Images/Footer/logo.png" alt="">
-            <img class="redes__redes" src="Assets/Images/Footer/redes-sociales.png" alt="">
+        <section class="footer--social__container">
+            <img class="social__logo" src="Assets/Images/Footer/logo.png" alt="">
+            <img class="social__redes" src="Assets/Images/Footer/redes-sociales.png" alt="">
         </section>
-        <!-- footer--brand__container -->
-        <section class="footer-derechos--container">
+        <section class="footer--brand__container">
             <p>©2020 Villavicencio - Meta - Colombia</p>
             <a href="#Inicio">Por SystemWork</a>
         </section>

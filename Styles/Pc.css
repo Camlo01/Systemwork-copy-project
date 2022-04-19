@@ -1,82 +1,88 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
-  font-style: normal;
-  height: 1500px;
-  font-family: "Roboto", sans-serif;
-  font-family: "Inter", sans-serif;
+    font-size: 62.5%;
+    font-style: normal;
+    height: 1500px;
+    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
 }
-:root {
-  --blue-color: #028fcc;
-  --extreme-blue-color: #0477a8;
-  --black-blue-color: #00557a;
-  --blue-hover: #0073a5;
-  --just-white: #fff;
 
-  --letra-title: #333;
-  --letra-body: #666;
+:root {
+    --blue-color: #028fcc;
+    --extreme-blue-color: #0477a8;
+    --black-blue-color: #00557a;
+    --blue-hover: #0073a5;
+    --just-white: #fff;
+    --letra-title: #333;
+    --letra-body: #666;
 }
+
 
 /* ---------------------------------------------------------------
-  ------------------------ HEADER -------------------------------
+  ------------------------ CONTACTO ------------------------------
   --------------------------------------------------------------- */
 
 .header-nav .Systemwork-logo {
-  width: 140px;
-  height: 45px;
+    width: 140px;
+    height: 45px;
 }
+
 .header-nav {
-  display: inline-flex;
-  padding: 0px 30px;
-  position: sticky;
-  background-color: var(--blue-color);
-  align-items: center;
-}
-.header-navbar {
-  display: contents;
-  position: relative;
-  justify-self: end;
-  display: contents;
-}
-.header-navbar ul {
-  margin-right: 18px;
-  list-style: none;
-  float: right;
+    display: inline-flex;
+    padding: 0px 30px;
+    position: sticky;
+    background-color: var(--blue-color);
+    align-items: center;
 }
 
-.header-navbar li {
-  display: inline-flex;
-  background-color: var(--blue-king);
-  margin: 0 2px;
+.navegation--container__navbar {
+    display: contents;
+    position: relative;
+    justify-self: end;
+    display: contents;
 }
 
-.header-navbar li a {
-  text-decoration: none;
-  padding: 30px 25px;
-  font-size: 1.8rem;
-  color: var(--just-white);
+.navegation--container__navbar ul {
+    margin-right: 18px;
+    list-style: none;
+    float: right;
 }
 
-.header-navbar li a:hover {
-  background-color: var(--blue-hover);
+.navegation--container__navbar li {
+    display: inline-flex;
+    background-color: var(--blue-king);
+    margin: 0 2px;
+}
+
+.navegation--container__navbar li a {
+    text-decoration: none;
+    padding: 30px 25px;
+    font-size: 1.8rem;
+    color: var(--just-white);
+}
+
+.navegation--container__navbar li a:hover {
+    background-color: var(--blue-hover);
 }
 
 #check-navbar {
-  display: none;
+    display: none;
 }
+
 .button-responsive-menu {
-  display: none;
+    display: none;
 }
+
 
 /* --------------------------------------------------------------------
 ---------------------------- Main -------------------------------------
 ----------------------------------------------------------------------- */
 
-.main-section-services {
-  margin-top: 10px;
+.main--section__services {
+    margin-top: 10px;
 }
