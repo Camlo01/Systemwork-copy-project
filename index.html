@@ -8,46 +8,58 @@
     <title>SystemWork</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@500;600;700&family=Oswald:wght@400;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@500;600;700&family=Oswald:wght@400;600&family=Roboto:wght@300;500;700&display=swap"
+        rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@500;600;700&family=Open+Sans:ital,wght@0,500;1,300&family=Oswald:wght@400;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@500;600;700&family=Open+Sans:ital,wght@0,500;1,300&family=Oswald:wght@400;600&family=Roboto:wght@300;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="Styles/Styles.css">
-    <link rel="stylesheet" href="Styles/Pc.css" media="(min-width: 1020px)">
+    <link rel="stylesheet" href="Styles/Pc.css" media="(min-width: 1056px)">
 </head>
 
 <body>
     <header>
         <div class="header--navegation__container">
-            <img src="Assets/Icons/logo.png" alt="" class="Systemwork-logo">
-            <input type="checkbox" id="check-navbar">
-            <label for="check-navbar" class="button-responsive-menu"><img src="" alt="|||"></label>
-            <nav class="navegation--container__navbar" id="menu">
-                <ul>
-                    <li class="selectores"> <a href="#inicio">Inicio</a></li>
-                    <li class="selectores"> <a href="#servicios">Servicios</a></li>
-                    <li class="selectores"> <a href="#nosotros">Nosotros</a></li>
-                    <li class="selectores"> <a href="#portafolio">Portafolio</a></li>
-                    <li class="selectores"> <a href="#aliados">Aliados</a></li>
-                    <li class="selectores"> <a href="#contacto">Contactanos</a></li>
-                </ul>
-            </nav>
+            <div class="navegation--container__max-width">
+                <img src="Assets/Icons/logo.png" class="Systemwork-logo" alt="Logo de la empresa">
+                <input type="checkbox" id="check-navbar">
+                <label for="check-navbar" class="button-responsive-menu">|||</label>
+                <nav class="navegation--container__navbar" id="menu">
+                    <ul>
+                        <li class="selectores"> <a href="#inicio">Inicio</a></li>
+                        <li class="selectores"> <a href="#servicios">Servicios</a></li>
+                        <li class="selectores"> <a href="#nosotros">Nosotros</a></li>
+                        <li class="selectores"> <a href="#portafolio">Portafolio</a></li>
+                        <li class="selectores"> <a href="#aliados">Aliados</a></li>
+                        <li class="selectores"> <a href="#contacto">Contactanos</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
     <main id="inicio">
         <section class="media--container">
-            <iframe class="youtube" src="https://www.youtube.com/embed/kI8-1ntkYZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            <iframe class="youtube" src="https://www.youtube.com/embed/kI8-1ntkYZ0" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
             </iframe>
-            <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/album/4Q0YngGN8opxJ5LIuDaE7P?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            <iframe class="spotify" style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/4Q0YngGN8opxJ5LIuDaE7P?utm_source=generator" frameBorder="0"
+                allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
             </iframe>
         </section>
         <!-- Section SERVICES-->
         <section class="main--section__services" id="servicios">
             <div class="section--services__text section--title">
                 <h2 class="services--text__title">Nuestros Servicios</h2>
-                <p class="services--text__body">Somos su aliado para el crecimiento de su empresa, implementando tecnología de punta para la efectividad de sus servicios</p>
+                <p class="services--text__body">Somos su aliado para el crecimiento de su empresa, implementando
+                    tecnología de punta para la efectividad de sus servicios</p>
             </div>
             <div class="services--container__wrap">
                 <!-- 3 primeros servicios  -->
@@ -70,19 +82,22 @@
                 <article class="services--container__card">
                     <img src="Assets/Icons/icons/icon-users.png" alt="imagen de servicio">
                     <h3>Outsourcing informático</h3>
-                    <p>Nosotros nos encargamos de la tecnología mientras usted desarrolla su actividad economónica principal.
+                    <p>Nosotros nos encargamos de la tecnología mientras usted desarrolla su actividad economónica
+                        principal.
                     </p>
                 </article>
                 <article class="services--container__card">
                     <img src="Assets/Icons/icons/icon-clock.png" alt="imagen de servicio">
                     <h3>Atención 24H 365 Dias</h3>
-                    <p>Obtenga atención las 24 horas los 365 días del año mediante control remoto, telefónico y presencial.
+                    <p>Obtenga atención las 24 horas los 365 días del año mediante control remoto, telefónico y
+                        presencial.
                     </p>
                 </article>
                 <article class="services--container__card">
                     <img src="Assets/Icons/icons/icon-computer.png" alt="imagen de servicio">
                     <h3>Suministros</h3>
-                    <p>Venta de equipos tecnológicos nuevos y remanufacturados como computadores, impresonras, cámras, repuestos, etc.</p>
+                    <p>Venta de equipos tecnológicos nuevos y remanufacturados como computadores, impresonras, cámras,
+                        repuestos, etc.</p>
                 </article>
             </div>
         </section>
@@ -91,8 +106,12 @@
             <article class="section--nosotros__container">
                 <div class="section--nosotros__text">
                     <h2 class="nosotros--text__title">Nosotros </h2>
-                    <p class="nosotros--text__body">Con mas de 20 años de experiencia en el campo de la tecnología brindamos todo tipo de soluciones a las necesidades tecnológicas de empresas, como de hogares en Colombia y fuera de Colombia para el desarrollo de sus actividades; siempre
-                        brindado un servicio con sentido humano siendo un aliado para el desarrollo y crecimiento de su negocio. <br><br> Nuestra misión es brindarle soluciones en el área tecnológica a tiempo de manera efectiva y segura con tecnología
+                    <p class="nosotros--text__body">Con mas de 20 años de experiencia en el campo de la tecnología
+                        brindamos todo tipo de soluciones a las necesidades tecnológicas de empresas, como de hogares en
+                        Colombia y fuera de Colombia para el desarrollo de sus actividades; siempre
+                        brindado un servicio con sentido humano siendo un aliado para el desarrollo y crecimiento de su
+                        negocio. <br><br> Nuestra misión es brindarle soluciones en el área tecnológica a tiempo de
+                        manera efectiva y segura con tecnología
                         de punta siguiendo el desarrollo de nuevas tecnologías.</p>
                 </div>
                 <img src="Assets/Images/Nosotros/barras.png" alt="">
@@ -103,7 +122,8 @@
 
             <div class="section--portafolio__text section--title">
                 <h2 class="portafolio--text__title">Nuestro Portafolio</h2>
-                <p class="portafolio--text__body">Todo lo relacionado con tecnologia para su empresa u hogar al manejar costo y calidad</p>
+                <p class="portafolio--text__body">Todo lo relacionado con tecnologia para su empresa u hogar al manejar
+                    costo y calidad</p>
             </div>
             <div class="section--portafolio__photos">
                 <img src="Assets/Images/Portafolio/1.bmp" alt="">
@@ -120,7 +140,8 @@
         <section class="main--section__aliados" id="aliados">
             <div class="section--aliados__text section--title">
                 <h2 class="aliados--text__title">Nuestros Aliados</h2>
-                <p class="aliados--text__body">Afrontar desafios requiere no solo promover la generacion de conocimiento sino la construccion de una sólida red de aliados</p>
+                <p class="aliados--text__body">Afrontar desafios requiere no solo promover la generacion de conocimiento
+                    sino la construccion de una sólida red de aliados</p>
             </div>
             <div class="aliados-container-wrap">
                 <article class="section-aliados--card">
@@ -188,7 +209,8 @@
         <section class="main--contacto__container" id="contacto">
             <div class="contacto--container__text section--title">
                 <h2 class="container--text__title">Contactanos</h2>
-                <p class="container--text__body">Solicita tu diagnotico sin costo, puedes llamarnos o escribirnos al correo de contacto</p>
+                <p class="container--text__body">Solicita tu diagnotico sin costo, puedes llamarnos o escribirnos al
+                    correo de contacto</p>
             </div>
             <div class="contacto--form__container">
                 <form action="">
