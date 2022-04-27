@@ -99,3 +99,9 @@ main {
 .main--section__services {
   margin-top: 10px;
 }
+
+.contacto--form__container {
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+}
