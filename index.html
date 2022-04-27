@@ -117,7 +117,7 @@
                         manera efectiva y segura con tecnología
                         de punta siguiendo el desarrollo de nuevas tecnologías.</p>
                 </div>
-                <img src="Assets/Images/Nosotros/barras.png" alt="">
+                <img src="Assets/Images/Nosotros/barras.png" alt="Tabla de clientes">
             </article>
         </section>
         <!-- seccion de PORTAFOLIO -->
@@ -129,14 +129,14 @@
                     costo y calidad</p>
             </div>
             <div class="section--portafolio__photos">
-                <img src="Assets/Images/Portafolio/1.bmp" alt="">
-                <img src="Assets/Images/Portafolio/2.bmp" alt="">
-                <img src="Assets/Images/Portafolio/3.bmp" alt="">
-                <img src="Assets/Images/Portafolio/4.bmp" alt="">
-                <img src="Assets/Images/Portafolio/5.bmp" alt="">
-                <img src="Assets/Images/Portafolio/6.bmp" alt="">
-                <img src="Assets/Images/Portafolio/7.bmp" alt="">
-                <img src="Assets/Images/Portafolio/6.bmp" alt="">
+                <img src="Assets/Images/Portafolio/1.bmp" alt="imagen portafolio">
+                <img src="Assets/Images/Portafolio/2.bmp" alt="imagen portafolio">
+                <img src="Assets/Images/Portafolio/3.bmp" alt="imagen portafolio">
+                <img src="Assets/Images/Portafolio/4.bmp" alt="imagen portafolio">
+                <img src="Assets/Images/Portafolio/5.bmp" alt="imagen portafolio">
+                <img src="Assets/Images/Portafolio/6.bmp" alt="imagen portafolio">
+                <img src="Assets/Images/Portafolio/7.bmp" alt="imagen portafolio">
+                <img src="Assets/Images/Portafolio/6.bmp" alt="imagen portafolio">
             </div>
         </section>
         <!-- seccion de ALIADOS -->
@@ -216,12 +216,14 @@
                     correo de contacto</p>
             </div>
             <div class="contacto--form__container">
-                <form action="">
-                    <input class="form__datos" type="text" placeholder="Nombre">
-                    <input class="form__datos" type="text" placeholder="Número tel.">
-                    <input class="form__datos" type="text" placeholder="Asunto">
-                    <input class="form__mensaje" type="text" placeholder="Escribe tu consulta">
-                    <button>Enviar ahora</button>
+                <form method="POST" action="mailto:soporte@systemwork.com.co?subject=Requiero soporte técnico"
+                    enctype="text/plain">
+                    <input class="form__datos" type="text" placeholder="Nombre" name="Nombre ">
+                    <input class="form__datos" type="text" placeholder="Número tel." name="Número ">
+                    <input class="form__datos" type="text" placeholder="Asunto" name="Asunto ">
+                    <textarea class="form__mensaje" type="text" placeholder="Escribe tu consulta"
+                        name="Tu consulta "></textarea>
+                    <button type="submit">Enviar ahora</button>
                 </form>
                 <article class="contacto--info__container">
                     <p>Direccion: Villavicencio - Meta</p>
@@ -236,11 +238,11 @@
 
     <footer>
         <section class="footer--social__container">
-            <img class="social__logo" src="Assets/Images/Footer/logo.png" alt="">
-            <img class="social__redes" src="Assets/Images/Footer/redes-sociales.png" alt="">
+            <img class="social__logo" src="Assets/Images/Footer/logo.png" alt="Logo de SystemWork">
+            <img class="social__redes" src="Assets/Images/Footer/redes-sociales.png" alt="Redes sociales de SystemWork">
         </section>
         <section class="footer--brand__container">
-            <p>©2020 Villavicencio - Meta - Colombia</p>
+            <p>©2022 Villavicencio - Meta - Colombia</p>
             <a href="#Inicio">Por SystemWork</a>
         </section>
     </footer>
