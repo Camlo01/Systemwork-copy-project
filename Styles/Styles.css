@@ -235,9 +235,9 @@ main {
 
 .main--section__nosotros {
   background-image: url(../Assets/Images/Nosotros/about-bg.jpg);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   color: var(--just-white);
   width: 100%;
@@ -408,9 +408,9 @@ main {
 
 .main--contacto__container {
   background-image: url(../Assets/Images/Contacto/contact-bg.jpg);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
   color: var(--just-white);
