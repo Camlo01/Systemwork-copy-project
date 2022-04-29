@@ -441,10 +441,9 @@ main {
 }
 
 form {
-  width: 280px;
+  min-width: 300px;
   margin: 0 auto;
 }
-
 .contacto--form__container input {
   font-size: 1.6rem;
   padding-left: 10px;
@@ -464,9 +463,8 @@ form {
   max-height: 180px;
   padding: 10px;
   font-weight: 300;
-
-  min-width: 280px;
-  max-width: 280px;
+  min-width: 300px;
+  max-width: 300px;
   font-family: "Inter", sans-serif;
   position: relative;
   background-color: rgb(0, 0, 0, 5%);
@@ -489,6 +487,31 @@ form button {
   border: 1px solid var(--blue-color);
   color: var(--just-white);
   font-size: 1.8rem;
+}
+
+form button:active {
+  background-color: #006e9d;
+  border: 1px solid #006e9d;
+}
+
+form input:hover,
+textarea:hover {
+  border: 1px solid var(--blue-color);
+  -webkit-box-shadow: 0px 0px 27px -7px #17b2ff;
+  box-shadow: 0px 0px 27px -7px #17b2ff;
+}
+
+button:hover {
+  background-color: rgb(1, 118, 177);
+  border-color: rgb(1, 118, 177);
+}
+
+form input:focus,
+textarea:focus {
+  color: white;
+  border: 1px solid #17b2ff;
+  -webkit-box-shadow: 0px 0px 12px 3px rgba(23, 178, 255, 0.93);
+  box-shadow: 0px 0px 12px 3px rgba(23, 178, 255, 0.93);
 }
 
 .contacto--info__container {
