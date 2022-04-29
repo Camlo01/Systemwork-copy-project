@@ -105,3 +105,13 @@ main {
   align-items: center;
   margin: 0 auto;
 }
+
+form {
+  min-width: 320px;
+}
+.contacto--form__container textarea {
+  min-height: 190px;
+  max-height: 190px;
+  min-width: 320px;
+  max-width: 320px;
+}
