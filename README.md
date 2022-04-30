@@ -26,7 +26,7 @@ El objetivo es tratar de copiar el sitio web de SystemWork
 - Animaciones del sitio web original
 - Más pseudoclases sobre imagenes
 - Función sobre imagenes de portafolio
-- Botón que redirige a Whatsapp
+- Botón que redirige a Whatsapp 
 
 ------------------------------------
 
