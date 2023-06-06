@@ -10,6 +10,7 @@ html {
   height: 1500px;
   font-family: "Roboto", sans-serif;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
